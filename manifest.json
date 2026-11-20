@@ -1,0 +1,1395 @@
+{
+ "format": "walkrig-manifest",
+ "rigVersion": "2026-11-20a",
+ "comp": {
+  "width": 1224,
+  "height": 1850,
+  "fps": 24,
+  "frames": 96
+ },
+ "artSize": [
+  1224,
+  1584
+ ],
+ "rootOffset": [
+  0,
+  266
+ ],
+ "effect": "Walk Rig",
+ "parts": [
+  {
+   "name": "N_Hand",
+   "parent": "N_Forearm",
+   "pivot": [
+    360,
+    675
+   ],
+   "mask": [
+    [
+     295,
+     669
+    ],
+    [
+     425,
+     678
+    ],
+    [
+     452,
+     720
+    ],
+    [
+     456,
+     800
+    ],
+    [
+     420,
+     852
+    ],
+    [
+     360,
+     866
+    ],
+    [
+     294,
+     852
+    ],
+    [
+     266,
+     790
+    ],
+    [
+     264,
+     720
+    ],
+    [
+     280,
+     690
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "N_Forearm",
+   "parent": "N_UpperArm",
+   "pivot": [
+    400,
+    553
+   ],
+   "mask": [
+    [
+     411.313,
+     708.419
+    ],
+    [
+     305.846,
+     677.169
+    ],
+    [
+     340.555,
+     535.387
+    ],
+    [
+     348.907,
+     517.879
+    ],
+    [
+     362.261,
+     503.809
+    ],
+    [
+     379.308,
+     494.555
+    ],
+    [
+     398.382,
+     491.021
+    ],
+    [
+     417.613,
+     493.555
+    ],
+    [
+     435.121,
+     501.907
+    ],
+    [
+     449.191,
+     515.26
+    ],
+    [
+     458.445,
+     532.308
+    ],
+    [
+     461.979,
+     551.382
+    ],
+    [
+     459.445,
+     570.613
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "N_UpperArm",
+   "parent": "Torso",
+   "pivot": [
+    584,
+    517
+   ],
+   "mask": [
+    [
+     411.137,
+     609.921
+    ],
+    [
+     388.863,
+     496.079
+    ],
+    [
+     573.247,
+     462.042
+    ],
+    [
+     590.757,
+     461.409
+    ],
+    [
+     607.604,
+     466.218
+    ],
+    [
+     622.142,
+     475.997
+    ],
+    [
+     632.945,
+     489.791
+    ],
+    [
+     638.958,
+     506.247
+    ],
+    [
+     639.591,
+     523.757
+    ],
+    [
+     634.782,
+     540.604
+    ],
+    [
+     625.003,
+     555.142
+    ],
+    [
+     611.209,
+     565.945
+    ],
+    [
+     594.753,
+     571.958
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "Torso",
+   "parent": "Pelvis",
+   "pivot": [
+    628,
+    700
+   ],
+   "mask": [
+    [
+     528,
+     450
+    ],
+    [
+     600,
+     440
+    ],
+    [
+     668,
+     444
+    ],
+    [
+     735,
+     505
+    ],
+    [
+     752,
+     600
+    ],
+    [
+     746,
+     706
+    ],
+    [
+     715,
+     735
+    ],
+    [
+     600,
+     722
+    ],
+    [
+     540,
+     710
+    ],
+    [
+     518,
+     600
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "Head",
+   "parent": "Torso",
+   "pivot": [
+    625,
+    472
+   ],
+   "mask": [
+    [
+     430,
+     170
+    ],
+    [
+     470,
+     90
+    ],
+    [
+     560,
+     55
+    ],
+    [
+     700,
+     55
+    ],
+    [
+     790,
+     100
+    ],
+    [
+     840,
+     180
+    ],
+    [
+     895,
+     260
+    ],
+    [
+     895,
+     340
+    ],
+    [
+     830,
+     420
+    ],
+    [
+     720,
+     465
+    ],
+    [
+     680,
+     490
+    ],
+    [
+     600,
+     482
+    ],
+    [
+     560,
+     460
+    ],
+    [
+     480,
+     410
+    ],
+    [
+     435,
+     320
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "Pelvis",
+   "parent": "CHARACTER_ROOT",
+   "pivot": [
+    605,
+    765
+   ],
+   "mask": [
+    [
+     530,
+     680
+    ],
+    [
+     705,
+     690
+    ],
+    [
+     728,
+     760
+    ],
+    [
+     690,
+     815
+    ],
+    [
+     620,
+     840
+    ],
+    [
+     545,
+     820
+    ],
+    [
+     510,
+     750
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "N_Foot",
+   "parent": "N_Shin",
+   "pivot": [
+    902,
+    1203
+   ],
+   "mask": [
+    [
+     841,
+     1241
+    ],
+    [
+     930,
+     1148
+    ],
+    [
+     958,
+     1124
+    ],
+    [
+     1055,
+     1199
+    ],
+    [
+     1000,
+     1280
+    ],
+    [
+     950,
+     1362
+    ],
+    [
+     870,
+     1365
+    ],
+    [
+     832,
+     1280
+    ]
+   ],
+   "fillMaskExpansion": 35,
+   "heel": [
+    912,
+    1314
+   ]
+  },
+  {
+   "name": "N_Toe",
+   "parent": "N_Foot",
+   "pivot": [
+    1023,
+    1175
+   ],
+   "mask": [
+    [
+     1031,
+     1231
+    ],
+    [
+     925,
+     1150
+    ],
+    [
+     960,
+     1090
+    ],
+    [
+     1030,
+     1045
+    ],
+    [
+     1095,
+     1050
+    ],
+    [
+     1115,
+     1100
+    ],
+    [
+     1085,
+     1170
+    ]
+   ],
+   "fillMaskExpansion": 35,
+   "toeSole": [
+    1069,
+    1115
+   ]
+  },
+  {
+   "name": "N_Shin",
+   "parent": "N_Thigh",
+   "pivot": [
+    804,
+    991
+   ],
+   "mask": [
+    [
+     969.333,
+     1210.433
+    ],
+    [
+     864.039,
+     1259.107
+    ],
+    [
+     744.999,
+     1018.274
+    ],
+    [
+     739.458,
+     998.707
+    ],
+    [
+     740.236,
+     978.385
+    ],
+    [
+     747.255,
+     959.298
+    ],
+    [
+     759.828,
+     943.315
+    ],
+    [
+     776.726,
+     931.999
+    ],
+    [
+     796.293,
+     926.458
+    ],
+    [
+     816.615,
+     927.236
+    ],
+    [
+     835.702,
+     934.255
+    ],
+    [
+     851.685,
+     946.828
+    ],
+    [
+     863.001,
+     963.726
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "N_Thigh",
+   "parent": "Pelvis",
+   "pivot": [
+    605,
+    765
+   ],
+   "mask": [
+    [
+     858.037,
+     943.419
+    ],
+    [
+     749.963,
+     1038.581
+    ],
+    [
+     541.206,
+     821.172
+    ],
+    [
+     526.97,
+     798.71
+    ],
+    [
+     520.372,
+     772.947
+    ],
+    [
+     522.058,
+     746.407
+    ],
+    [
+     531.863,
+     721.687
+    ],
+    [
+     548.828,
+     701.206
+    ],
+    [
+     571.29,
+     686.97
+    ],
+    [
+     597.053,
+     680.372
+    ],
+    [
+     623.593,
+     682.058
+    ],
+    [
+     648.313,
+     691.863
+    ],
+    [
+     668.794,
+     708.828
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "F_Foot",
+   "parent": "F_Shin",
+   "pivot": [
+    233,
+    1193
+   ],
+   "mask": [
+    [
+     195,
+     1139
+    ],
+    [
+     280,
+     1225
+    ],
+    [
+     347,
+     1257
+    ],
+    [
+     215,
+     1346
+    ],
+    [
+     140,
+     1305
+    ],
+    [
+     92,
+     1265
+    ],
+    [
+     98,
+     1200
+    ],
+    [
+     150,
+     1148
+    ]
+   ],
+   "fillMaskExpansion": 35,
+   "heel": [
+    140,
+    1243
+   ]
+  },
+  {
+   "name": "F_Toe",
+   "parent": "F_Foot",
+   "pivot": [
+    248,
+    1324
+   ],
+   "mask": [
+    [
+     205,
+     1352
+    ],
+    [
+     228,
+     1305
+    ],
+    [
+     262,
+     1222
+    ],
+    [
+     320,
+     1215
+    ],
+    [
+     400,
+     1255
+    ],
+    [
+     422,
+     1320
+    ],
+    [
+     400,
+     1362
+    ],
+    [
+     220,
+     1366
+    ]
+   ],
+   "fillMaskExpansion": 35,
+   "toeSole": [
+    375,
+    1325
+   ]
+  },
+  {
+   "name": "F_Shin",
+   "parent": "F_Thigh",
+   "pivot": [
+    405,
+    1000
+   ],
+   "mask": [
+    [
+     266.32,
+     1242.787
+    ],
+    [
+     179.72,
+     1165.61
+    ],
+    [
+     358.714,
+     958.75
+    ],
+    [
+     373.726,
+     946.466
+    ],
+    [
+     391.8,
+     939.422
+    ],
+    [
+     411.166,
+     938.307
+    ],
+    [
+     429.928,
+     943.232
+    ],
+    [
+     446.25,
+     953.714
+    ],
+    [
+     458.534,
+     968.726
+    ],
+    [
+     465.578,
+     986.8
+    ],
+    [
+     466.693,
+     1006.166
+    ],
+    [
+     461.768,
+     1024.928
+    ],
+    [
+     451.286,
+     1041.25
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "F_Thigh",
+   "parent": "Pelvis",
+   "pivot": [
+    605,
+    765
+   ],
+   "mask": [
+    [
+     459.831,
+     1046.665
+    ],
+    [
+     350.169,
+     953.335
+    ],
+    [
+     540.269,
+     709.91
+    ],
+    [
+     560.461,
+     692.603
+    ],
+    [
+     585.013,
+     682.383
+    ],
+    [
+     611.521,
+     680.25
+    ],
+    [
+     637.391,
+     686.414
+    ],
+    [
+     660.09,
+     700.269
+    ],
+    [
+     677.397,
+     720.461
+    ],
+    [
+     687.617,
+     745.013
+    ],
+    [
+     689.75,
+     771.521
+    ],
+    [
+     683.586,
+     797.391
+    ],
+    [
+     669.731,
+     820.09
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "F_Hand",
+   "parent": "F_Forearm",
+   "pivot": [
+    863,
+    617
+   ],
+   "mask": [
+    [
+     897,
+     660
+    ],
+    [
+     829,
+     578
+    ],
+    [
+     812,
+     520
+    ],
+    [
+     848,
+     468
+    ],
+    [
+     920,
+     455
+    ],
+    [
+     987,
+     488
+    ],
+    [
+     1003,
+     560
+    ],
+    [
+     968,
+     632
+    ],
+    [
+     932,
+     662
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "F_Forearm",
+   "parent": "F_UpperArm",
+   "pivot": [
+    791,
+    670
+   ],
+   "mask": [
+    [
+     840.797,
+     557.433
+    ],
+    [
+     910.908,
+     642.194
+    ],
+    [
+     826.056,
+     712.381
+    ],
+    [
+     811.243,
+     721.139
+    ],
+    [
+     794.45,
+     724.892
+    ],
+    [
+     777.319,
+     723.271
+    ],
+    [
+     761.526,
+     716.436
+    ],
+    [
+     748.619,
+     705.056
+    ],
+    [
+     739.861,
+     690.243
+    ],
+    [
+     736.108,
+     673.45
+    ],
+    [
+     737.729,
+     656.319
+    ],
+    [
+     744.564,
+     640.526
+    ],
+    [
+     755.944,
+     627.619
+    ]
+   ],
+   "fillMaskExpansion": 0
+  },
+  {
+   "name": "F_UpperArm",
+   "parent": "Torso",
+   "pivot": [
+    668,
+    525
+   ],
+   "mask": [
+    [
+     835.23,
+     632.481
+    ],
+    [
+     746.77,
+     707.519
+    ],
+    [
+     622.245,
+     563.813
+    ],
+    [
+     612.49,
+     547.774
+    ],
+    [
+     608.169,
+     529.506
+    ],
+    [
+     609.705,
+     510.797
+    ],
+    [
+     616.947,
+     493.478
+    ],
+    [
+     629.187,
+     479.245
+    ],
+    [
+     645.226,
+     469.49
+    ],
+    [
+     663.494,
+     465.169
+    ],
+    [
+     682.203,
+     466.705
+    ],
+    [
+     699.522,
+     473.947
+    ],
+    [
+     713.755,
+     486.187
+    ]
+   ],
+   "fillMaskExpansion": 0
+  }
+ ],
+ "controls": [
+  {
+   "name": "Stride",
+   "group": "Legs & Feet",
+   "default": 1000,
+   "min": 0,
+   "max": 2500,
+   "kid": true,
+   "label": "Step Size",
+   "type": "slider",
+   "kidMin": 500,
+   "kidMax": 1250,
+   "keyframeable": true
+  },
+  {
+   "name": "Step Height",
+   "group": "Legs & Feet",
+   "default": 210,
+   "min": 0,
+   "max": 300,
+   "kid": true,
+   "label": "Knee Lift",
+   "type": "slider",
+   "kidMin": 40,
+   "kidMax": 260,
+   "keyframeable": true
+  },
+  {
+   "name": "Step Hold",
+   "group": "Legs & Feet",
+   "default": 0.35,
+   "min": 0,
+   "max": 0.8,
+   "kid": true,
+   "label": "Pause at Top",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 0.6,
+   "keyframeable": true
+  },
+  {
+   "name": "Reach",
+   "group": "Legs & Feet",
+   "default": 200,
+   "min": 0,
+   "max": 600,
+   "kid": false,
+   "label": "Reach",
+   "type": "slider",
+   "keyframeable": false
+  },
+  {
+   "name": "Heel Strike",
+   "group": "Legs & Feet",
+   "default": -35,
+   "min": -80,
+   "max": 0,
+   "kid": true,
+   "label": "Heel Tap",
+   "type": "slider",
+   "kidMin": -60,
+   "kidMax": 0,
+   "keyframeable": true
+  },
+  {
+   "name": "Toe Off",
+   "group": "Legs & Feet",
+   "default": 58,
+   "min": 0,
+   "max": 90,
+   "kid": true,
+   "label": "Toe Push",
+   "type": "slider",
+   "kidMin": 20,
+   "kidMax": 75,
+   "keyframeable": true
+  },
+  {
+   "name": "Toe Flick",
+   "group": "Legs & Feet",
+   "default": 25,
+   "min": -40,
+   "max": 80,
+   "kid": true,
+   "label": "Toe Flick",
+   "type": "slider",
+   "kidMin": -20,
+   "kidMax": 60,
+   "keyframeable": true
+  },
+  {
+   "name": "Swing Curl",
+   "group": "Legs & Feet",
+   "default": -10,
+   "min": -40,
+   "max": 40,
+   "kid": true,
+   "label": "Foot Curl",
+   "type": "slider",
+   "kidMin": -30,
+   "kidMax": 30,
+   "keyframeable": true
+  },
+  {
+   "name": "Ground Y",
+   "group": "Legs & Feet",
+   "default": 1322,
+   "min": 0,
+   "max": 1584,
+   "kid": false,
+   "label": "Ground Y",
+   "type": "slider",
+   "keyframeable": false
+  },
+  {
+   "name": "Lean",
+   "group": "Body & Arms",
+   "default": 4,
+   "min": -20,
+   "max": 20,
+   "kid": true,
+   "label": "Lean",
+   "type": "slider",
+   "kidMin": -15,
+   "kidMax": 15,
+   "keyframeable": true
+  },
+  {
+   "name": "Bounce",
+   "group": "Body & Arms",
+   "default": 30,
+   "min": 0,
+   "max": 80,
+   "kid": true,
+   "label": "Bounciness",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 60,
+   "keyframeable": true
+  },
+  {
+   "name": "Hip Drop",
+   "group": "Body & Arms",
+   "default": -40,
+   "min": -100,
+   "max": 150,
+   "kid": true,
+   "label": "Crouch",
+   "type": "slider",
+   "kidMin": -60,
+   "kidMax": 60,
+   "keyframeable": true
+  },
+  {
+   "name": "Hip Rock",
+   "group": "Body & Arms",
+   "default": 3,
+   "min": 0,
+   "max": 15,
+   "kid": true,
+   "label": "Hip Wiggle",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 10,
+   "keyframeable": true
+  },
+  {
+   "name": "Hip Push",
+   "group": "Body & Arms",
+   "default": 6,
+   "min": 0,
+   "max": 40,
+   "kid": true,
+   "label": "Hip Push",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 20,
+   "keyframeable": true
+  },
+  {
+   "name": "Torso Rock",
+   "group": "Body & Arms",
+   "default": 3,
+   "min": 0,
+   "max": 15,
+   "kid": true,
+   "label": "Chest Rock",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 10,
+   "keyframeable": true
+  },
+  {
+   "name": "Arm Swing",
+   "group": "Body & Arms",
+   "default": 125,
+   "min": 0,
+   "max": 180,
+   "kid": true,
+   "label": "Arm Swing",
+   "type": "slider",
+   "kidMin": 20,
+   "kidMax": 160,
+   "keyframeable": true
+  },
+  {
+   "name": "Elbow Drag",
+   "group": "Body & Arms",
+   "default": 40,
+   "min": 0,
+   "max": 90,
+   "kid": true,
+   "label": "Elbow Bend",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 70,
+   "keyframeable": true
+  },
+  {
+   "name": "Hand Flop",
+   "group": "Body & Arms",
+   "default": 18,
+   "min": 0,
+   "max": 60,
+   "kid": true,
+   "label": "Floppy Hands",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 40,
+   "keyframeable": true
+  },
+  {
+   "name": "Head Bob",
+   "group": "Body & Arms",
+   "default": 1.5,
+   "min": 0,
+   "max": 20,
+   "kid": true,
+   "label": "Head Bob",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 10,
+   "keyframeable": true
+  },
+  {
+   "name": "Head Tilt",
+   "group": "Body & Arms",
+   "default": 0,
+   "min": -30,
+   "max": 30,
+   "kid": true,
+   "label": "Head Tilt",
+   "type": "slider",
+   "kidMin": -20,
+   "kidMax": 20,
+   "keyframeable": true
+  },
+  {
+   "name": "Head Stabilize",
+   "group": "Body & Arms",
+   "default": 85,
+   "min": 0,
+   "max": 100,
+   "kid": true,
+   "label": "Steady Head",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 100,
+   "keyframeable": true
+  },
+  {
+   "name": "Stomp Nod",
+   "group": "Body & Arms",
+   "default": 10,
+   "min": 0,
+   "max": 25,
+   "kid": true,
+   "label": "Head Bop",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 20,
+   "keyframeable": true
+  },
+  {
+   "name": "Swagger",
+   "group": "Body & Arms",
+   "default": 3.5,
+   "min": 0,
+   "max": 15,
+   "kid": true,
+   "label": "Swagger",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 10,
+   "keyframeable": true
+  },
+  {
+   "name": "Peck",
+   "group": "Body & Arms",
+   "default": 10,
+   "min": 0,
+   "max": 40,
+   "kid": true,
+   "label": "Pigeon Peck",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 25,
+   "keyframeable": true
+  },
+  {
+   "name": "Chin Up",
+   "group": "Body & Arms",
+   "default": 3,
+   "min": -15,
+   "max": 15,
+   "kid": true,
+   "label": "Chin Up",
+   "type": "slider",
+   "kidMin": -10,
+   "kidMax": 10,
+   "keyframeable": true
+  },
+  {
+   "name": "Cycle Frames",
+   "group": "Timing & Style",
+   "default": 24,
+   "min": 8,
+   "max": 96,
+   "kid": true,
+   "label": "Speed",
+   "type": "choice",
+   "choices": [
+    {
+     "label": "Very Slow",
+     "value": 48
+    },
+    {
+     "label": "Slow",
+     "value": 32
+    },
+    {
+     "label": "Normal",
+     "value": 24
+    },
+    {
+     "label": "Fast",
+     "value": 16
+    },
+    {
+     "label": "Very Fast",
+     "value": 12
+    }
+   ],
+   "keyframeable": false
+  },
+  {
+   "name": "Phase Offset",
+   "group": "Timing & Style",
+   "default": 0,
+   "min": -48,
+   "max": 48,
+   "kid": false,
+   "label": "Phase Offset",
+   "type": "slider",
+   "keyframeable": false
+  },
+  {
+   "name": "Arm Delay",
+   "group": "Timing & Style",
+   "default": 1,
+   "min": 0,
+   "max": 6,
+   "kid": true,
+   "label": "Arm Lag",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 4,
+   "keyframeable": true
+  },
+  {
+   "name": "Bounce Delay",
+   "group": "Timing & Style",
+   "default": -1.8,
+   "min": -6,
+   "max": 6,
+   "kid": true,
+   "label": "Bounce Timing",
+   "type": "slider",
+   "kidMin": -4,
+   "kidMax": 4,
+   "keyframeable": true
+  },
+  {
+   "name": "Nod Delay",
+   "group": "Timing & Style",
+   "default": 1,
+   "min": 0,
+   "max": 6,
+   "kid": true,
+   "label": "Head Lag",
+   "type": "slider",
+   "kidMin": 0,
+   "kidMax": 4,
+   "keyframeable": true
+  },
+  {
+   "name": "Sticker Border",
+   "group": "Timing & Style",
+   "default": 20,
+   "min": 0,
+   "max": 60,
+   "kid": false,
+   "label": "Sticker Border",
+   "type": "slider",
+   "keyframeable": false
+  }
+ ],
+ "groups": [
+  "Legs & Feet",
+  "Body & Arms",
+  "Timing & Style"
+ ],
+ "keyframes": {
+  "ease": "easyEase",
+  "influence": 33.333,
+  "loopDefault": true
+ }
+}

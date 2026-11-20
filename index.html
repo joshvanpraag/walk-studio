@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Walk Studio</title>
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand">🚶 Walk Studio</div>
+  <div class="who" id="who" hidden>
+    <img id="whoThumb" alt="">
+    <span id="whoName"></span>
+    <button class="ghost" id="switchBtn">Switch character</button>
+  </div>
+  <div class="teacher-nav" id="teacherNav" hidden>
+    <button class="ghost" id="prevStudent">◀ Prev</button>
+    <button class="ghost" id="nextStudent">Next ▶</button>
+    <span class="tag">Teacher mode</span>
+  </div>
+</header>
+
+<main id="gallery" class="gallery" hidden>
+  <h1>Find your drawing!</h1>
+  <p class="sub">Tap the character you colored.</p>
+  <div class="grid" id="grid"></div>
+</main>
+
+<main id="editor" class="editor" hidden>
+  <section class="stage">
+    <div class="canvas-wrap" id="canvasWrap"><canvas id="view"></canvas></div>
+    <div class="transport">
+      <button class="play" id="playBtn" title="Play / Pause (Space)">❚❚</button>
+      <div class="timeline" id="timeline">
+        <div class="track" id="track"><div class="keys" id="keys"></div><div class="head" id="playhead"></div></div>
+        <div class="tl-label" id="tlLabel">Tap a ◆ next to a slider to animate it</div>
+      </div>
+      <div class="frame" id="frameNum">0</div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="presets">
+      <span class="lbl">Start from:</span>
+      <div id="presetBtns" class="chips"></div>
+      <button class="chip fun" id="surpriseBtn">🎲 Surprise me</button>
+      <button class="chip" id="resetBtn">↺ Start over</button>
+    </div>
+    <nav class="tabs" id="tabs"></nav>
+    <div class="controls" id="controls"></div>
+    <div class="loop-row">
+      <label class="toggle"><input type="checkbox" id="loopToggle" checked><span></span> Make animated sliders loop back to the start</label>
+    </div>
+    <div class="save">
+      <div class="save-btns">
+        <button class="big primary" id="saveSheetBtn">☁️ Save to class</button>
+        <button class="big" id="downloadBtn">⬇️ Download my walk</button>
+        <button class="big" id="codeBtn">📋 Copy my code</button>
+      </div>
+      <div class="status" id="status">Your work is saved on this Chromebook automatically.</div>
+    </div>
+  </section>
+</main>
+
+<div class="modal" id="confirm" hidden>
+  <div class="card">
+    <img id="confirmImg" alt="">
+    <h2 id="confirmTitle">Is this your drawing?</h2>
+    <div class="row">
+      <button class="big" id="confirmNo">No, go back</button>
+      <button class="big primary" id="confirmYes">Yes, that's me!</button>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="codeModal" hidden>
+  <div class="card wide">
+    <h2>Your walk code</h2>
+    <p>It's copied! Paste it into your Google Classroom assignment. If it didn't copy, select it all and copy it.</p>
+    <textarea id="codeText" readonly></textarea>
+    <div class="row"><button class="big primary" id="codeClose">Done</button></div>
+  </div>
+</div>
+
+<div class="loading" id="loading">Loading…</div>
+
+<script src="config.js"></script>
+<script src="js/walkcore.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
